@@ -69,7 +69,7 @@ const validateCred = array => {
 
 }
 
-
+// The role of findInvalidCards() is to check through the nested array for which numbers are invalid, and return another nested array of invalid cards.
 function findInvalidCards(nestedArray) {
   let filteredInvalidCards = []
   for (let i = 0; i < nestedArray.length; i++) {
@@ -81,6 +81,7 @@ function findInvalidCards(nestedArray) {
   return filteredInvalidCards
 }
 
+// checking companies that mailed out invalid cards
 function idInvalidCardCompanies(sortedInvalidArray) {
   let mailingCompanies = []
   
