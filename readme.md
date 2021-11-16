@@ -1,4 +1,4 @@
-<h1>The task of project<h1>
+<h3>The task of project</h3>
 
 The company that you work for suspects that credit card distributors have been mailing out cards that have invalid numbers.
 In this project, you have the role of a clerk who checks if credit cards are valid. 
@@ -15,4 +15,4 @@ The calculations in the Luhn algorithm can be broken down as the following steps
 <li>As you iterate to the left, every other digit is doubled (the check digit is not doubled). If the number is greater than 9 after doubling, subtract 9 from its value.</li>
 <li>Sum up all the digits in the credit card number.</li>
 <li>If the sum modulo 10 is 0 (if the sum divided by 10 has a remainder of 0) then the number is valid, otherwise, it’s invalid.</li>
-<ol>
+</ol>
